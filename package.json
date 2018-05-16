@@ -1,0 +1,14 @@
+{
+  "name": "kata-padding",
+  "version": "1.0.0",
+  "description": "padding",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Gloria",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^22.4.3"
+  }
+}
