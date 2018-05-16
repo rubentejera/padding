@@ -16,21 +16,17 @@ Si el tamaño final es menor o igual que la cadena inicial, se devuelve sin toca
 function paddingLeft(initialString, finalSize, paddingValue) {
     if(finalSize <= initialString.length){
         return initialString;
-    }else{
-        let finalString="";
-        let fillnumber = finalSize - initialString.length
+    } else {
+        let fillnumber = finalSize - initialString.length;
 
         if (paddingValue === null || paddingValue === undefined ){
             paddingValue = " ";
-
         }
 
         for (let i=0; i<fillnumber; i++){
-            finalString = paddingValue + finalString;
+            initialString = paddingValue + initialString;
         }
-
-        finalString = finalString + initialString;
-        return finalString;
+        return initialString;
     }
 
 }
