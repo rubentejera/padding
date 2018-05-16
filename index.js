@@ -14,7 +14,6 @@ Si el tamaño final es menor o igual que la cadena inicial, se devuelve sin toca
 // }
 
 function paddingLeft(initialString, finalSize, paddingValue) {
-
     if(finalSize <= initialString.length){
         return initialString;
     }else{

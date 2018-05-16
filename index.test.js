@@ -9,6 +9,7 @@ describe ('Padding-left App', () => {
         });
         test('should be return the word add characters before the word', function(){
             expect(paddingLeft("hola",5,"x")).toBe("xhola");
+            expect(paddingLeft("hola",5)).toBe(" hola");
         });
 
 });
