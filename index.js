@@ -20,7 +20,7 @@ function paddingLeft(initialString, finalSize, paddingValue) {
         let finalString="";
         let fillnumber = finalSize - initialString.length
 
-        if (paddingValue === null){
+        if (paddingValue === null || paddingValue === undefined ){
             paddingValue = " ";
 
         }
