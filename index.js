@@ -17,6 +17,21 @@ function paddingLeft(initialString, finalSize, paddingValue) {
 
     if(finalSize <= initialString.length){
         return initialString;
+    }else{
+        let finalString="";
+        let fillnumber = finalSize - initialString.length
+
+        if (paddingValue === null){
+            paddingValue = " ";
+
+        }
+
+        for (let i=0; i<fillnumber; i++){
+            finalString = paddingValue + finalString;
+        }
+
+        finalString = finalString + initialString;
+        return finalString;
     }
 
 }
