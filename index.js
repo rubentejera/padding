@@ -9,7 +9,15 @@ Si el tamaño final es menor o igual que la cadena inicial, se devuelve sin toca
 
 */
 
-function paddingLeft() {
+// function paddingLeft(word) {
+//     return word+2;
+// }
+
+function paddingLeft(initialString, finalSize, paddingValue) {
+
+    if(finalSize <= initialString.length){
+        return initialString;
+    }
 
 }
 module.exports = paddingLeft;
